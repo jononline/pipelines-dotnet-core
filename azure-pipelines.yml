@@ -20,4 +20,4 @@ steps:
     azureSubscription: 'Azure subscription 1(1)(5814a547-5af6-43de-809f-ec05ef4ea6d9)'
     appType: 'webApp'
     WebAppName: 'pipeline-app-jw-uks-01'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
